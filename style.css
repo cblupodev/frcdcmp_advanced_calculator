@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+body * {
+    font-family: 'Share Tech Mono';
+}
+
+body {
+    background-color: black;
+}
+
+@media only screen and (min-width:1200px) {
+    body {
+        width: 60% !important;
+    }
+}
+
+button {
+    font-size: 6vmin;
+    color: red;
+    background-color: white;
+    padding: 1%;
+    border: thin solid black;
+}
+
+.digits {
+    padding-right: 0px;
+}
+
+.symbols {
+    padding-left: 0px;
+}
+
+.digits button {
+    height: 15vh;
+}
+
+.symbols button {
+    height: 9vh;
+}
+
+.last button {
+    height: 15vh;
+}
+
+button:hover {
+    background-color: #fafafa;
+}
+
+button:active {
+    background-color: #eee;
+}
+
+button:focus {
+    outline: none;
+}
+
+p {
+    font-size: 10vmin;
+    height: 15vh;
+    color: red;
+    margin-right: 2vw;
+}
+
+#clear {
+    font-size: 5vmin;
+}
+
+#key {
+    margin-top: 10vh;
+    font-size: 1.5vmin;
+    color: white;
+}
